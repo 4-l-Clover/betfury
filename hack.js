@@ -4,7 +4,7 @@
   '01d3': function (t, e, n) {
     var r = n('c9eb'),
     o = n('d941');
-    console.log("here");
+    console.log("success");
     t.exports = function (t) {
       var e = t.xdomain,
       n = t.xscheme,
