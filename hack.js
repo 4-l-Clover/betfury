@@ -11698,6 +11698,7 @@
               t.onClose()
             },
             this.ws.onmessage = function (e) {
+              console.log(e.data);
               t.onData(e.data)
             },
             this.ws.onerror = function (e) {
